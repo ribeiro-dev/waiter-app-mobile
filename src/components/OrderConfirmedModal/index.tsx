@@ -17,7 +17,7 @@ export function OrderConfirmedModal({ visible, onOk }: OrderConfirmedModalProps)
       visible={visible}
       animationType="fade"
     >
-      {!isAndroid && (<StatusBar style="light" />)} {/* changes statusbar in iOS */}
+      {!isAndroid && (<StatusBar style="light" />)}
 
       <Container>
         <CheckCircle />
